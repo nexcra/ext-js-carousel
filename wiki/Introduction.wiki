@@ -1,4 +1,4 @@
-#A carousel component for Ext JS 4.0.7
+A carousel component for Ext JS 4.0.7
 
 = Introduction =
 
@@ -7,7 +7,7 @@ This component is based on a jquery component : CloudCarousel V1.0.5
  (c) 2011 by R Cecco. <http://www.professorcloud.com>
  
  Html example:
- 
+<code>
   <div id="carousel-div"></div>
 	
 	<!-- Define left and right buttons. -->
@@ -17,7 +17,7 @@ This component is based on a jquery component : CloudCarousel V1.0.5
 	<!-- Define elements to accept the alt and title text from the images. -->
 	<p id="title-text"></p>
 	<p id="alt-text"></p>
- 
+ </code>
   Configuration options for the carousel :
   
   Ext.onReady(function() {
