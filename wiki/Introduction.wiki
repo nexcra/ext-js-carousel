@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#A carousel component for Ext JS 4.0.7
 
 = Introduction =
 
@@ -36,11 +36,3 @@ This component is based on a jquery component : CloudCarousel V1.0.5
 			renderTo: 'carousel-div'
    	});
   });
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
