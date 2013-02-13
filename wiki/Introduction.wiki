@@ -37,3 +37,5 @@ Configuration options for the carousel :
    	});
   });
 </code>
+
+http://code.google.com/images/carousel.jpg
