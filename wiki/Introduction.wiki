@@ -3,8 +3,7 @@ A carousel component for Ext JS 4.0.7
 = Introduction =
 
 A container for showing carousel. We add to this carousel the reflection for images. This version of carousel is based on Ext JS 4.0.7 
-This component is based on a jquery component : CloudCarousel V1.0.5
- (c) 2011 by R Cecco. <http://www.professorcloud.com>
+This component is based on a jquery component : CloudCarousel 1.0.5 (c) 2011 by R Cecco. <http://www.professorcloud.com>
  
 Html example:
 
