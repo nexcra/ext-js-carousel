@@ -6,20 +6,21 @@ A container for showing carousel. We add to this carousel the reflection for ima
 This component is based on a jquery component : CloudCarousel V1.0.5
  (c) 2011 by R Cecco. <http://www.professorcloud.com>
  
- Html example:
-<code>
-  <div id="carousel-div"></div>
-	
-	<!-- Define left and right buttons. -->
-	<input id="left-but"  type="button" value="Left" />
-	<input id="right-but" type="button" value="Right" />
+Html example:
 
-	<!-- Define elements to accept the alt and title text from the images. -->
-	<p id="title-text"></p>
-	<p id="alt-text"></p>
- </code>
-  Configuration options for the carousel :
-  
+<code>
+<div id="carousel-div"></div>	
+<!-- Define left and right buttons. -->
+<input id="left-but"  type="button" value="Left" />
+<input id="right-but" type="button" value="Right" />
+
+<!-- Define elements to accept the alt and title text from the images. -->
+<p id="title-text"></p>
+<p id="alt-text"></p>
+</code>
+
+Configuration options for the carousel :
+<code> 
   Ext.onReady(function() {
   	Ext.createWidget('carousel',{
 			id: 'carousel-id',
@@ -36,3 +37,4 @@ This component is based on a jquery component : CloudCarousel V1.0.5
 			renderTo: 'carousel-div'
    	});
   });
+</code>
