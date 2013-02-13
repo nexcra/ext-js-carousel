@@ -1,0 +1,46 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+A container for showing carousel. We add to this carousel the reflection for images. This version of carousel is based on Ext JS 4.0.7 
+This component is based on a jquery component : CloudCarousel V1.0.5
+ (c) 2011 by R Cecco. <http://www.professorcloud.com>
+ 
+ Html example:
+ 
+  <div id="carousel-div"></div>
+	
+	<!-- Define left and right buttons. -->
+	<input id="left-but"  type="button" value="Left" />
+	<input id="right-but" type="button" value="Right" />
+
+	<!-- Define elements to accept the alt and title text from the images. -->
+	<p id="title-text"></p>
+	<p id="alt-text"></p>
+ 
+  Configuration options for the carousel :
+  
+  Ext.onReady(function() {
+  	Ext.createWidget('carousel',{
+			id: 'carousel-id',
+			xPos: 280,
+			yPos: 80,
+			FPS: 30,
+			reflHeight: 56,
+			reflGap:2,
+			buttonLeft: 'left-but',
+			buttonRight: 'right-but',
+			altBox: 'alt-text',
+ 			titleBox: 'title-text',	
+			autoRotate: 'no',	
+			renderTo: 'carousel-div'
+   	});
+  });
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
