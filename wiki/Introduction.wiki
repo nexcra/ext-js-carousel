@@ -39,5 +39,6 @@ Ext.onReady(function() {
 </code>
 
 You will get this a view like this one :
-
-<img src="http://ext-js-carousel.googlecode.com/files/carousel.jpg" style="1px solid #999999"/>
+<div style="1px solid #999999">
+<img src="http://ext-js-carousel.googlecode.com/files/carousel.jpg"/>
+</div>
