@@ -37,5 +37,7 @@ Ext.onReady(function() {
    });
 });
 </code>
-<img src="http://ext-js-carousel.googlecode.com/files/carousel.jpg" alt="Logo"/>
-http://code.google.com/images/carousel.jpg
+
+You will get this a view like this one :
+
+<img src="http://ext-js-carousel.googlecode.com/files/carousel.jpg"/>
