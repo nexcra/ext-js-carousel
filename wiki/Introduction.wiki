@@ -40,4 +40,4 @@ Ext.onReady(function() {
 
 You will get this a view like this one :
 
-<img src="http://ext-js-carousel.googlecode.com/files/carousel.jpg"/>
+<img src="http://ext-js-carousel.googlecode.com/files/carousel.jpg" style="border: solid;"/>
