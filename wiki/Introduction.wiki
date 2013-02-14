@@ -37,5 +37,5 @@ Ext.onReady(function() {
    });
 });
 </code>
-
+<img src="http://ext-js-carousel.googlecode.com/files/carousel.jpg" alt="Logo"/>
 http://code.google.com/images/carousel.jpg
