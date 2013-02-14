@@ -10,10 +10,10 @@ Here is an example for the use:
 HTML mark-up : 
 
 <code>
-<div id="carousel-div"></div>	
+<div id="carousel-div"/>	
 <!-- Define left and right buttons. -->
-<input id="left-but"  type="button" value="Left" />
-<input id="right-but" type="button" value="Right" />
+<input id="left-but"  type="button" value="Left">
+<input id="right-but" type="button" value="Right">
 
 <!-- Define elements to accept the alt and title text from the images. -->
 <p id="title-text"></p>
@@ -21,6 +21,7 @@ HTML mark-up :
 </code>
 
 Configuration options for the carousel :
+
 <code> 
 Ext.onReady(function() {
   Ext.createWidget('carousel',{
@@ -40,7 +41,7 @@ Ext.onReady(function() {
 });
 </code>
 
-You will get this a view like this one :
+You will get a view like this one :
 
 <img src="http://ext-js-carousel.googlecode.com/files/carousel.jpg"/>
 
