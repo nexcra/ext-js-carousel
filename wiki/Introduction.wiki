@@ -21,6 +21,15 @@ HTML mark-up :
 <p id="alt-text"></p>
 </code>
 
+The style may be like this one :
+
+<code>
+#carousel-div{
+     width:560px;
+     height:400px;
+     background:#000;
+}</code>
+
 Configuration options for the carousel :
 
 <code> 
