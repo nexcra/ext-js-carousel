@@ -116,4 +116,4 @@ The table below shows the possible config options :
 ||speed||This value represents the speed at which the carousel rotates between items. Good values are around 0.1 ~ 0.3. A value of one will instantly move from one item to the next without any rotation animation. Values should be greater than zero and less than one.||0.2||
 ||autoRotate||Turn on auto-rotation of the carousel using either 'left' or 'right' as the value. The carousel will rotate between items automatically. The auto-rotation stops when the user hovers over the carousel area, and starts again when the mouse is moved off.||'no'||
 ||autoRotateDelay||Delay in milliseconds between each rotation in auto-rotate mode. A minimum value of 1000 (i.e. one second) is recommended.||150||
-||store||Loads the images for the carousel component. Th model must have the definition of the source, title and alt attributes for the image.||null||
+||store||Loads the images for the carousel component. The model must have as attributes the source, title and alt for the image.||null||
