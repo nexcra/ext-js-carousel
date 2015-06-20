@@ -1,0 +1,1 @@
+an Ext JS carousel component.We add to this carousel the reflection for images.
